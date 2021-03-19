@@ -1,0 +1,158 @@
+@import url('../fonts/font-awesome.min.css');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700%7CRoboto:100,300,400,400i,500,700');
+
+* {
+    margin: auto;
+}
+
+.dflexA {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #ad926b;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.bpcontac {
+    background: #edcb9a;
+    padding: 8px;
+}
+
+.entPrin {
+    width: 30%;
+    font-weight: 700;
+}
+
+.entPrinCont {
+    width: 31%;
+}
+
+.sptel {
+    margin-right: 2%;
+}
+
+.spEmail {
+    margin-right: 2%;
+}
+
+.entPrinCont a {
+    text-decoration: none;
+    color: #ad926b;
+    font-weight: 700;
+}
+
+.entPrinCont span {
+    color: #ad926b;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.contLM {
+    display: flex;
+}
+
+.conMenu {
+    width: 57%;
+}
+
+.contML {
+    padding: 15px;
+}
+
+.conMenu ul {
+    color: #d8ba8e;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conMenu a {
+    color: #a4a4a4;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 28.5px;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.menuAct {
+    color: #d8ba8e !important;  
+}
+
+#bntsc {
+    background-color: #edcb9a;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+
+#bntsc a {
+    color: white;
+}
+
+.sliderP {
+    background-image: url(../img/slider13.jpg);
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    background-size: cover;
+    filter: hue-rotate(328deg);
+}
+
+.tpMark {
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 68px;
+    color: white;
+    z-index: 910000;
+}
+
+.spMark {
+    width: 100%;
+    margin-top: 0px;
+    color: white;
+    font-size: 18px;
+    z-index: 910000;
+}
+
+.dfleform {
+    display: flex;
+}
+
+.dfleform div {
+    width: 13%;
+    font-family: 'Roboto', sans-serif;
+    color: #b5bec4;
+}
+
+.boxform {
+    padding: 32px;
+    border: none;
+    border-bottom: 1px solid #b5bec4;;
+}
+
+.boxform input, .boxform select{
+    border: none;
+    border-bottom: 2px solid #efefef;
+}
+
+.boxform input::placeholder, .boxform select {
+    color: #afafaf;
+}
+
+body > header > div.boxform > form > div:nth-child(4) > input[type=date] {
+    color: #afafaf;
+}

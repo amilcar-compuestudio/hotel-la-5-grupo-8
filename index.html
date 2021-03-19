@@ -1,57 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="assets/img/favicon-apple.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>Hotel la 5 | APP WEB</title>
 </head>
 <body>
     <header>
-        <div>
-            <div>
-                <span>WELCOME TO HOTEL HIMARA.</span>
-            </div>
-            <div>
-                <span>+1 888 123 4567</span>
-                <span>CONTACT@HOTELHIMARA.COM</span>
-                <span>ENGLISH</span>
-            </div>
-        </div>
-        <div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <nav>
-                    <ul>
-                        <li>INICIO</li>
-                        <li>HABITACIONES</li>
-                        <li>BLOG</li>
-                        <li>PAGINAS</li>
-                        <li>ELEMENTOS</li>
-                        <li>CONTACTENOS</li>
-                        <li>AGENDA WEB</li>
-                    </ul>
-                </nav>
+        <div class="bpcontac">
+            <div class="dflexA">
+                <div class="entPrin">
+                    <span>WELCOME TO HOTEL HIMARA.</span>
+                </div>
+                <div class="entPrinCont">
+                    <span class="sptel">
+                        <i class="fa fa-phone"></i>
+                        <a href="tel:+18881234567">+1 888 123 4567</a>
+                    </span>
+                    <span class="spEmail">
+                        <i class="fa fa-envelope-o "></i>
+                        <a href="mailto:contact@hotelhimara.com">CONTACT@HOTELHIMARA.COM</a>
+                    </span>
+                    <span>
+                        <img src="assets/img/gb.png" alt="Image"> ENGLISH
+                    </span>
+                </div>
             </div>
         </div>
-        <div>
-            <h1>DISFRUTA TUS VACACIONES</h1>
-            <span>Habitación Familiar desde $80.000 por noche</span>
+        <div class="contML">
+            <div class="contLM">
+                <div>
+                    <img src="assets/img/logo.svg" alt="logo hotel la 5">
+                </div>
+                <div class="conMenu">
+                    <nav>
+                        <ul>
+                            <li><a class="menuAct" href="#">INICIO</a></li>
+                            <li><a href="#">HABITACIONES</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">PAGINAS</a></li>
+                            <li><a href="#">ELEMENTOS</a></li>
+                            <li><a href="#">CONTACTENOS</a></li>
+                            <li id="bntsc">
+                                <i class="fa fa-calendar"></i>
+                                <a href="#">AGENDA WEB</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
-        <div>
-            <form>
+        <div class="sliderP">
+            <h1 class="tpMark">DISFRUTA TUS VACACIONES</h1>
+            <span class="spMark">Habitación Familiar desde $80.000 por noche</span>
+        </div>
+        <div class="boxform">
+            <form class="dfleform">
                 <div>
                     <label>NOMBRE</label>
+                    <i class="fa fa-info-circle"></i>
                     <input type="text" placeholder="ESCRIBA SU NOMBRE">
                 </div>
                 <div>
                     <label>EMAIL</label>
+                    <i class="fa fa-info-circle"></i>
                     <input type="text" placeholder="ESCRIBA SU EMAIL">
                 </div>
                 <div>
                     <label>TIPO DE HABITACIÓN</label>
+                    <i class="fa fa-info-circle"></i>
                     <select>
                         <option>Seleccione un tipo</option>
                         <option>Habitacion Simple</option>
@@ -60,17 +80,23 @@
                     </select>
                 </div>
                 <div>
-                    <label>Check</label>
-                    <input type="date" placeholder="ESCRIBA SU EMAIL">
+                    <label>CHECK</label>
+                    <i class="fa fa-info-circle"></i>
+                    <input type="date">
                 </div>
                 <div>
                     <label>HUÉSPEDES</label>
+                    <i class="fa fa-info-circle"></i>
                     <select>
-                        <option>Seleccione ...</option>
+                        <option hidden>Seleccione ...</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
                     </select>
+                </div>
+                <div>
+                    <button type="button">BOOK A ROOM</button>
+                    <span>Advanced Booking Form</span>
                 </div>
             </form>
         </div>
